@@ -1,0 +1,10 @@
+<nav id="nav-bar">
+            <div class="main_box">
+                <div class="sidebar">
+                    <div class="big_wrapper logo">
+                        <a href="#" class="nav">
+                        <h2>Menu</h2>
+                        <div class="one"></div>
+                        <div class="two"></div>
+                        <div class="three"></div>
+                        </a>

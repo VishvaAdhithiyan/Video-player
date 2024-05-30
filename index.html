@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video player</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+
+</head>
+<body>
+    <header>
+        <nav id="nav-bar">
+            <div class="main_box">
+                <input type="checkbox" id="menu_check">
+                <div class="big_wrapper nav btn_one">
+                    <label for="menu_check">
+                        <div class="one"></div>
+                        <div class="two"></div>
+                        <div class="three"></div>
+                    </label>
+                </div>
+                <div class="sidebar">
+                    <div class="logo">
+                        <a href="#" class="nav">Menu</a>
+                    </div>
+                    <div class="btn_two">
+                        <label for="menu_check">
+                            <i class="fa-solid fa-caret-left style="color: #1b1537;"></i>
+                        </label>
+                    </div>
+                    <div class="menu">
+                        <ul id="menu_list">
+                            <li><a href="#"> <i class="fa-solid fa-house" style="color: #1b1537;"></i>
+                                Home</a></li>
+                            <li><a href="#"> <i class="fa-solid fa-film" style="color: #1b1537;"></i>
+                                Shorts</a></li>
+                            <li><a href="#"> <i class="fa-solid fa-stream" style="color: #1b1537;"></i>
+                                Overview</a></li>
+                            <li><a href="#"> <i class="fa-solid fa-calendar-week" style="color: #1b1537;"></i>
+                                Events</a></li>
+                            <li><a href="#"> <i class="fa-solid fa-question-circle" style="color: #1b1537;"></i>
+                                About</a></li>
+                            <li><a href="#"> <i class="fa-solid fa-sliders-h" style="color: #1b1537;"></i>
+                                Sevices</a></li>
+                            <li><a href="#"> <i class="fa-solid fa-phone-volume" style="color: #1b1537;"></i>
+                                Contract</a></li>
+                            <li><a href="#"> <i class="fa-solid fa-comments" style="color: #1b1537;"></i>
+                                Feedback</a></li>
+                        </ul>
+                    </div>
+                
+                    <div class="social_media">
+                        <a href="https://www.facebook.com/" target="_blank"> 
+                            <i class="fab fa-facebook" style="color: #1b1537;"></i></a>
+                        <a href="https://twitter.com/" target="_blank"> 
+                            <i class="fab fa-twitter" style="color: #1b1537;"></i></a>
+                        <a href="https://www.instagram.com/" target="_blank"> 
+                            <i class="fab fa-instagram" style="color: #1b1537;"></i></a>
+                        <a href="https://www.youtube.com/" target="_blank"> 
+                            <i class="fab fa-youtube" style="color: #1b1537;"></i></a>
+                
+                    </div>
+            </div>
+            </div>
+            <a href="index.html"><img src="https://plus.unsplash.com/premium_photo-1683936164203-b8b814f2e3a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8eW91dHViZSUyMGxvZ298ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60" 
+            alt="logo"
+            id="img"
+            >
+            </a>
+            <h1 id="heading">Video Player</h1>
+            <input  id="searchbar" type="text" placeholder="Type to search">
+            <button id="search_button"><i class="fa-solid fa-magnifying-glass" style="color: #c0c0c0;"></i></button>
+            <button id="speak_btn"> <i class="fa-solid fa-microphone"></i> </button>
+            
+            <input type="checkbox" id="dropdown_check">
+                <div id="notify">
+                    <label for="dropdown_check">
+                        <a>
+                        <i class="fa-regular fa-bell fa-xl" style="color: #1b1537;"></i>
+                        </a>
+                    </label>
+                </div>
+            <div class="dropdown_menu">
+                <div class="dropdown_list">
+                    <ul>
+                        <li>Notify 1</li>
+                        <li>Notify 2</li>
+                    </ul>
+                </div>
+            </div>
+            <button class="user"><i class="fa-solid fa-user fa-2xl" style="color: #ed8e92;"></i></button>
+        </nav>
+    </header>
+
+    <main>
+        <sidebar>
+            <div id="side-menu">
+                <ul id="sidebar_icons">
+                    <li><a href="#">
+                        <i class="fa-solid fa-house fa-xl" style="color: #1b1537;"></i>
+                    </a></li>
+                    <li><a href="#">
+                        <i class="fa-solid fa-film fa-xl" style="color: #1b1537;"></i>
+                    </a></li>
+                    <li><a href="#">
+                        <i class="fa-solid fa-record-vinyl fa-xl" style="color: #1b1537;"></i>
+                    </a></li>
+                    <li><a href="#">
+                        <i class="fa-solid fa-clock-rotate-left fa-xl" style="color: #1b1537;"></i>
+                    </a></li>
+                </ul>
+            </div>
+        </sidebar>
+
+        <div id="content">
+            <p>Content</p>
+        </div>
+    </main>
+
+</body>
+</html>
